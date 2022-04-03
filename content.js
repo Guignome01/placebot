@@ -301,7 +301,7 @@ browser.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
 update_design(timeout_map_check)
 
 console.log("Hello Place!");
-notif("Thank you for contributing to Monero's r/place! The bot is running.");
+notif("Thank you for contributing to Bitcoin's r/place! The bot is running.");
 
 var pixels_placed_counter = 0
 var firstRun = true;
