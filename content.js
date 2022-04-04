@@ -4,7 +4,7 @@ if (typeof browser === "undefined") {
 
 var design = undefined
 var token = undefined;
-const version = 1.4
+const version = 1.5
 
 function notif(notification) {
 	let elem = document.getElementsByTagName("h1")[0]
