@@ -186,10 +186,13 @@ function send_change(cont, x, y, color) {
 	if (place_x >= 1000) {
 		place_x -= 1000;
 		canvas_index = 1
-		if (place_y >= 1000) {
-			place_y -= 1000
-			if (canvas_index == 1) { canvas_index = 3 }
-			else { canvas_index = 2 }
+	}
+	if (place_y >= 1000) {
+		place_y -= 1000
+		if (canvas_index == 1) {
+			canvas_index = 3
+		} else {
+			canvas_index = 2
 		}
 	}
 
